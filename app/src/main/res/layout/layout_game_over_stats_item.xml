@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/favorites_grid"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#EEEEEE"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:rowCount="1"-->
+    <!--android:columnCount="5">-->
+
+    <TextView
+        android:id="@+id/placeIndicator"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight=".09"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/usernameIndicator"
+        style="@style/EndGameStatusItems"
+        android:layout_weight=".25"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/totalPointsIndicator"
+        style="@style/EndGameStatusItems"
+        android:layout_weight=".22"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/pointsGainedIndicator"
+        style="@style/EndGameStatusItems"
+        android:layout_weight=".22"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/pointsLostIndicator"
+        style="@style/EndGameStatusItems"
+        android:layout_weight=".22"
+        android:padding="5dp" />
+
+<!--</GridLayout>-->
+
+</LinearLayout>

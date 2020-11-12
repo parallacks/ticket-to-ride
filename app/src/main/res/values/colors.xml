@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultBackgroundColor">#FAFAFA</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="defaultTextColor">#484a4c</color>
+    <color name="pleasingBlue">#427af4</color>
+
+    <color name="superRed">#FF0000</color>
+    <color name="superBlack">#000000</color>
+    <color name="lightBlue">#429ef4</color>
+
+    <color name="login_button_color">#d40a0a</color>
+    <color name="to_register_color">#0166ff</color>
+    <color name="login_button_text_color">#ffffff</color>
+    <color name="register_button_color">#d40a0a</color>
+    <color name="to_login_color">#0166ff</color>
+    <color name="register_button_text_color">#ffffff</color>
+
+    <color name="translucent">#888888</color>
+
+    <color name="map_background">#deca98</color>
+    <color name="player_turn_text_color">#ffffff</color>
+
+    <color name="red_route">#FF0000</color>
+    <color name="orange_route">#FF9800</color>
+    <color name="yellow_route">#F7E339</color>
+    <color name="green_route">#35BE3F</color>
+    <color name="blue_route">#3650D6</color>
+    <color name="pink_route">#C72FB3</color>
+    <color name="black_route">#000000</color>
+    <color name="white_route">#FFFFFF</color>
+
+    <color name="dest_card_background">#ad835f</color>
+
+</resources>

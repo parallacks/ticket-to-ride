@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="title_activity_game_waiting">GameWaitingActivity</string>
+
+    <string name="title_activity_login_register">LoginRegisterActivity</string>
+
+    <!-- GameWaitingActivity attribute strings -->
+    <string name="logoutBtnText">Logout</string>
+
+    <!-- GameListFragment attribute strings -->
+    <string name="joinGameBtnText">Join Game</string>
+    <string name="createGameText">Create Game</string>
+    <string name="gameListTitle">Game List:</string>
+
+    <!-- GameLobbyFragment attribute strings-->
+    <string name="readyBtnText">Ready</string>
+    <string name="leaveBtnText">Leave Game</string>
+    <string name="playerListTitle">Player List:</string>
+    <string name="title_activity_game_board">GameBoardActivity</string>
+
+    <string name="app_name">Ticket To Ride</string>
+
+    <string name="login_username_text">Username:</string>
+    <string name="login_username_hint">Enter Valid Username</string>
+    <string name="login_password_text">Password:</string>
+    <string name="login_password_hint">Enter Valid Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_to_register"><u>Not an existing user? Sign up here!</u></string>
+    <string name="register_username_text">Username:</string>
+    <string name="register_username_hint">Enter Valid Username</string>
+    <string name="register_password_text">Password:</string>
+    <string name="register_password_hint">Enter Valid Password</string>
+    <string name="register_confirm_password_text">Confirm Password:</string>
+    <string name="register_confirm_password_hint">Reenter Password</string>
+    <string name="register_button">Register</string>
+    <string name="register_to_login"><u>Already signed up? Log in here!</u></string>
+    <string name="host_hint">Enter IP address of server</string>
+    <string name="host_text">Hostname:</string>
+
+
+    <!--DestSelectionFragment Attributes-->
+    <string name="destCardInstructionText">
+        Please select at least %1$d Destination Card(s)</string>
+    <string name="DestCardBtnText">City 1: %1$s\nCity 2: %2$s\nPoints if completed: %3$d</string>
+    <string name="SubmitBtnText">Submit</string>
+
+    <!--GameStatusFragment Attributes-->
+    <string name="scoreText">Score: %1$d</string>
+    <string name="numTrainCardsText">Train Cards: %1$d</string>
+    <string name="numDestCardsText">Destination Cards: %1$d</string>
+    <string name="numCarsLeftText">Cars left: %1$d</string>
+    <string name="myStatsText">My Status</string>
+
+    <string name="drawTrainCardBtnText">Draw Train Card\n(%1$d remaining)</string>
+    <string name="drawDestCardsBtnText">Draw Destination Cards\n(%1$d remaining)</string>
+    <string name="testBtnText">Game Over Button</string>
+
+    <string name="myTrainCardsText">My Train Cards</string>
+    <string name="TCardNumText">%1$s: %2$d</string>
+
+    <string name="closeBtnText">Close</string>
+
+    <string name="destCardTitleText">My Destination Cards</string>
+    <string name="destCardCity1Text">City 1: %1$s</string>
+    <string name="destCardCity2Text">City 2: %1$s</string>
+    <string name="pointsPossibleText">Points possible: %1$d</string>
+    <string name="completedText">Completed? %1$s</string>
+
+    <!--Game Board Activity attributes-->
+    <string name="gameStatusButtonText">Game Status</string>
+    <string name="player_turn_text">YOUR TURN</string>
+    <string name="map_content_description">map</string>
+    <string name="routeTextBtnText">Test claiming route</string>
+    <string name="claim_route_button_text">Claim</string>
+    <string name="show_chat_text">Chat ^</string>
+
+    <!--Chat Fragment attributes-->
+    <string name="chat_button_text">Send</string>
+    <string name="chat_input_hint">Enter message</string>
+    <string name="hide_chat_text">Chat v</string>
+
+    <!--Game Over activity attributes-->
+    <string name="winnerDeclarationText">%1$s is the Winner!!!</string>
+    <string name="longestRouteDeclarationText">Most routes are claimed by %1$s</string>
+    <string name="usernameText">Username: %1$s</string>
+    <string name="totalPtsText">Total Points: %1$d</string>
+    <string name="ptsGainedText">Points Gained: %1$d</string>
+    <string name="ptsLostTexxt">Points Lost: %1$d</string>
+
+</resources>

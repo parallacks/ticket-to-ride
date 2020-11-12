@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:padding="5dp"
+    android:background="@color/dest_card_background">
+
+    <TextView
+        android:id="@+id/city1"
+        style="@style/DestCardInfo" />
+
+    <TextView
+        android:id="@+id/city2"
+        style="@style/DestCardInfo" />
+
+    <TextView
+        android:id="@+id/points"
+        style="@style/DestCardInfo" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/completed"-->
+        <!--style="@style/DestCardInfo" />-->
+
+
+
+
+</LinearLayout>

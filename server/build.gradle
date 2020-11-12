@@ -1,0 +1,13 @@
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+    implementation project(':common')
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+
+
+mainClassName = 'com.ticket_to_ride.server.Main'

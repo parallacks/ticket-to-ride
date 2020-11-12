@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ticket_to_ride.client.view.GameStatusFragment"
+    android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusRelLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/statusPlayerStatsLayout"
+            android:layout_marginTop="5dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/player_stats_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drawTrainCardDeckBtn"
+            android:text="@string/drawTrainCardBtnText"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/statusPlayerStatsLayout"/>
+
+        <!--Take this out after phase 2 testing-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/testRunBtn"-->
+            <!--android:layout_toEndOf="@id/drawTrainCardDeckBtn"-->
+            <!--android:text="@string/testBtnText"-->
+            <!--android:layout_toStartOf="@id/destCardDeckBtn"-->
+            <!--android:paddingStart="10dp"-->
+            <!--android:paddingEnd="20dp"-->
+            <!--android:layout_below="@id/statusPlayerStatsLayout"/>-->
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawDestCardsBtnText"
+            android:id="@+id/destCardDeckBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@id/statusPlayerStatsLayout"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/drawTrainCardDeckBtn"
+            android:id="@+id/faceUpTCardLayout">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/face_up_tcard_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/TCardNumLayout"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/faceUpTCardLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myTrainCardsText"
+                android:id="@+id/myTrainCards"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/defaultTextColor"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/t_card_num_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"/>
+
+
+        </LinearLayout>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myStats"
+            android:layout_below="@id/faceUpTCardLayout"
+            android:layout_toEndOf="@id/TCardNumLayout"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            layout="@layout/player_stats_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DestCardInfoTitleText"
+            android:text="@string/destCardTitleText"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/faceUpTCardLayout"
+            android:layout_toEndOf="@id/myStats"
+            android:textColor="@color/defaultTextColor"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/destCardInfoLayout"
+            android:layout_toEndOf="@id/myStats"
+            android:layout_below="@id/DestCardInfoTitleText"
+            android:layout_marginStart="20dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/dest_card_info_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/closeBtnText"
+            android:id="@+id/closeBtn"
+            android:layout_alignParentEnd="true"
+            android:gravity="top"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
